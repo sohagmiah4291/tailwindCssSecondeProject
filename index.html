@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tailwindCssProject_2</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>this is sohag</h1>
+    <!-- header section start  -->
+    <header class="md:flex md:flex-row flex-col  md:justify-between text-center  md:px-10 items-center py-4 space-y-2">
+        <div class="text-center">
+            <img class="dark:text-white mx-auto" src="pictures/logo.png" alt="logo">
+        </div>
+        <div>
+            <ul class="flex gap-3 flex-col md:flex-row  md:gap-8 pe-5 dark:text-white">
+                <li>Home</li>
+                <li class="text-[#F44335]">About Us</li>
+                <li>Upskill</li>
+                <li>Contact us </li>
+            </ul>
+        </div>
+        <div class="md:flex gap-3 items-center">
+            <button class="bg-[#F44335] text-white px-3 py-2 rounded-md">Register Interest</button>
+              
+        </div>
+    </header>
+    <!-- header section end  -->
+
+    <!-- hero section start  -->
+     <section class="bg-no-repeat" style="background-image: url('pictures/banner.png');">
+        <div >
+            <p>Discover - Interact - Engage </p>
+            <h1>Connecting talent to opportunity through skills </h1>
+            <p>We forster a skill-focussed environment enabling students to navigate their career with their self-paced learning journey and businesses to gain market-ready talent. </p>
+            <button>Ask questions</button>
+        </div>
+     </section>
+    <!-- hero section end  -->
 </body>
 </html>
